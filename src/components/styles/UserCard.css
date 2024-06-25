@@ -1,0 +1,47 @@
+.user_container{
+    text-align: left;
+    padding: 1em;
+    border: solid black;
+    border-radius: 10px;
+    border-width: 1px;
+    overflow-wrap: break-word;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.2em;
+}
+
+.user_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.user_subtitle{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.user_value{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.user_btn-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.user_btn{
+    display: grid;
+    grid-template-columns: auto;
+    width: 5em;
+    padding: 0.2em;
+    font-size: 0.7em;
+    border-width: 0.5px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 10px;
+}
